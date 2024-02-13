@@ -33,6 +33,9 @@ const yesMessage = [
   "y",
   "y",
   "Yes",
+  "Yes",
+  "Yes",
+  "Yes",
 ];
 
 buttonNo.addEventListener("mouseover", function () {
@@ -62,7 +65,7 @@ buttonYes.addEventListener("click", function () {
 
 function newContainerContent() {
   const image = document.createElement("img");
-  image.src = "src/assets/img/Peggy Kisses.gif";
+  image.src = "../src/assets/img/Peggy Kisses.gif";
 
   const wrapperImg = document.createElement("div");
   wrapperImg.className = "wrapper-img";

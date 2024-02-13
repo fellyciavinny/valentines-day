@@ -101,7 +101,7 @@ function startHeartAnimation() {
           console.log("code message finish");
           clearInterval(e);
         }
-      }, 20);
+      }, 15);
     });
     return this;
   };
