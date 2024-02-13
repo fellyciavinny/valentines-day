@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(-45deg, #e78895, #fdc9d1, #ffb0b0);
+  font-size: 12px;
+  overflow: auto;
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+}
+
+#mainDiv {
+  width: 100%;
+  height: 100%;
+}
+
+#loveHeart {
+  float: left;
+  width: 670px;
+  height: 620px;
+  position: relative;
+}
+
+#garden {
+  width: 100%;
+  height: 100%;
+}
+
+#elapseClock {
+  text-align: right;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#words {
+  font-family: "sans-serif";
+  width: 500px;
+  font-size: 24px;
+  color: #666;
+}
+
+#messages {
+  display: none;
+}
+
+#elapseClock .digit {
+  font-family: "digit";
+  font-size: 36px;
+}
+
+#loveu {
+  padding: 5px;
+  font-size: 22px;
+  margin-top: 80px;
+  margin-right: 120px;
+  text-align: right;
+  display: none;
+}
+
+#loveu .signature {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+#clickSound {
+  display: none;
+}
+
+#code {
+  float: left;
+  width: 440px;
+  margin-top: 25px !important;
+  color: #333;
+  font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New",
+    "sans-serif";
+  font-size: 12px;
+}
+
+#code .string {
+  color: #2a36ff;
+}
+
+#code .keyword {
+  color: #7f0055;
+  font-weight: bold;
+}
+
+#code .placeholder {
+  margin-left: 15px;
+}
+
+#code .space {
+  margin-left: 7px;
+}
+
+#code .comments {
+  color: #3f7f5f;
+}
+
+#code .link {
+  animation: 3s ease 1s infinite beat;
+}
+
+#code .link:hover {
+  animation: none;
+}
+
+#copyright {
+  margin-top: 40px;
+  text-align: center;
+  width: 100%;
+  color: #666;
+}
+
+#errorMsg {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  position: absolute;
+  top: 100px;
+  left: 0;
+}
+
+#copyright a {
+  color: #666;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes beat {
+  0%, 50%, 100% {  color: #FF9BD2; }
+  30%, 80% { color: #3f7f5f; }
+}
